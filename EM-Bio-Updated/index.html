@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- CSS external style sheet located in assets/css directory -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>POP Services</title>
+</head>
+<!-- Used a hero-image to create a background utilising the business logo -->
+
+<body class="hero-image">
+    <!-- Used header to add semantics to the web page -->
+    <header>
+        <!-- Used Bootstrap Nav options for the Navbar and did some slight modifications and additions -->
+        <nav class="navbar navbar-expand navbar-light bg-light flex-column flex-md-row">
+            <a class="navbar-brand" href="index.html">
+                <img src="./assets/pics/POPicon.PNG" width="150" height="50" class="d-inline-block align-top"
+                    alt="POP sevices Venn diagram icon" loading="lazy">
+            </a>
+            <div class="navbar-nav ml-md-auto">
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item active">
+                        <!-- Included component to notify screen reader as to what the current page is -->
+                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./assets/html/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./assets/html/contact.html">Contact</a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Used main to add semantics to the web page -->
+    <main>
+        <div class="container-sm">
+            <!-- Utilised bootstrap grid system to layout content -->
+            <div class="row">
+                <div class="col-sm border-bottom">
+                    <h1>
+                        About
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./assets/pics/POPicon2.png" width="200" height="200"
+                        alt="POP sevices Venn diagram icon with projects, operations and performance written under it"
+                        class="img-thumbnail">
+                </div>
+                <div class="col-sm-9">
+                    <!-- I wanted to emphasie words in the paragraph and used strong tag -->
+                    <p>
+                        <strong>POP services (Projects + Operations + Performance)</strong> was born out of a want to
+                        help everyday business and organisations make <strong> lasting meaningful change</strong> and to
+                        enable the realisation of <strong>ideas</strong> . <strong>POP services</strong> seeks to
+                        <strong>strengthen</strong> local business and the community they operate in.
+                    </p>
+                    <p>
+                        <strong>POP services</strong> principal consultant <strong>Eleftherios (Terry) Moschos</strong>
+                        has extensive experience across abroad range of industries from Mining and Oil & Gas to the
+                        hospitality sector. He has leveraged this knowledge with a <strong>Masters in Applied Project
+                            Management</strong> through the University of Adelaide and the combination of <strong>"Real
+                            world" + "Academic" = "Practical knowledge"</strong>. In other words <strong>POP
+                            services</strong> delivers solutions tailored to each <strong>individual situation</strong>
+                        that <strong>work</strong>.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="font-weight-bolder">VISION + MISSION</h2>
+                </div>
+                <div class="col-sm-9">
+                    <p>
+                        <strong>Exploring and implementing ideas of local businesses and organisations for the benefit
+                            of our clients and the wider community.</strong>
+                    </p>
+                    <p>
+                        <strong>We work closely with businesses and organisations to become apart of their ongoing
+                            operation so that we can deliver high quality and lasting projects that provide realised
+                            benefits to our clients but also to the wider local community.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Sticky footer is the same across all pages and had to use CSS positioning to get it where I wanted -->
+    <footer id="sticky-footer" class="bg-light">
+        <div class="container text-center">
+            <small>Eleftherios Moschos</small>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/eleftherios-moschos-380409113/">
+                <img src="./assets/pics/linkin.png" width="30" height="30" alt="linkedin logo" loading="lazy">
+            </a>
+            <a class="navbar-brand" href="https://github.com/EMoschos">
+                <img src="./assets/pics/github.png" width="30" height="30" alt="Github logo" loading="lazy">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
